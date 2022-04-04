@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MAD105_LoginScreen</string>
+    <string name="login">Login:</string>
+    <string name="loginhint">Enter your username</string>
+    <string name="password">Password:</string>
+    <string name="loginButtonText">Login</string>
+    <string name="errMsgLogin">Invalid username, please retry</string>
+    <string name="errMsgPwd">Invalid password, please retry</string>
+    
+</resources>
