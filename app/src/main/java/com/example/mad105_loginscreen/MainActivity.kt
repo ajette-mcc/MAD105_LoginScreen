@@ -1,5 +1,6 @@
 package com.example.mad105_loginscreen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -34,7 +35,8 @@ class MainActivity : AppCompatActivity() {
                     txtPassword.requestFocus()
                 }
                 else -> {
-                    Toast.makeText(applicationContext, "Success", Toast.LENGTH_LONG).show()
+                    startActivity(Intent(this@MainActivity, MainClassList::class.java))
+                //                    Toast.makeText(applicationContext, "Success", Toast.LENGTH_LONG).show()
                 }
             }
         }
